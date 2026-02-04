@@ -76,3 +76,15 @@ Choose a model approach based on cost and control:
 
 ---
 If you want, specify the exact MVP feature and preferred stack, and this plan can be converted into a detailed implementation checklist.
+
+## Quickstart (Demo App)
+This repo now includes a minimal Flask-based demo for Makenix.
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python app/main.py
+```
+
+Then open `http://localhost:8000` in your browser.
